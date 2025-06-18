@@ -8,7 +8,7 @@ A-Vision — это Telegram-бот для описания изображени
 
 1. **Клонируйте репозиторий:**
 ```bash
-git clone https://github.com/your-username/a_vision.git
+git clone https://github.com/aspect-cloud/a_vision.git
 cd a_vision
 ```
 
