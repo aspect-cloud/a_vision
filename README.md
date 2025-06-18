@@ -59,7 +59,7 @@ curl -X POST "https://api.telegram.org/bot<YOUR_BOT_TOKEN>/setWebhook" \
 1. **Подключите GitHub репозиторий** к Vercel
 2. **Настройте проект:**
    - Framework Preset: `Other`
-   - Build Command: python main.py
+   - Build Command: `python main.py`
    - Output Directory: оставьте пустым
    - Install Command: `pip install -r requirements.txt`
 
@@ -153,12 +153,4 @@ GEMINI_MODEL = "gemini-1.5-flash"  # или другая модель
 
 MIT License - см. файл [LICENSE](LICENSE) для деталей.
 
-
-## 📞 Поддержка
-
-- Telegram: [@qzbxwv](https://t.me/qzbxwv)
-- GitHub Issues: [Создать issue](https://github.com/aspect-cloud/a_vision/issues)
-
----
-
-**A-Vision** — часть проекта **A.Cloud** 🌟
+**A-Vision** — часть **A.Cloud** 🌟
