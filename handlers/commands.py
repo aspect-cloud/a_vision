@@ -57,7 +57,7 @@ async def cmd_help(message: types.Message):
         "/start - Показать приветствие и клавиатуру.",
         "/help - Показать это сообщение.\n",
         "Для работы в группе, добавь меня и выдай права администратора.\n\n",
-        "[It`s mine, but it can be yours](https://github.com/aspect-cloud/a_vision)"
+        "[You can be a part of it](https://github.com/aspect-cloud/a_vision)"
     ]
         
     await message.answer("\n".join(help_text), parse_mode=ParseMode.MARKDOWN, disable_web_page_preview=True)

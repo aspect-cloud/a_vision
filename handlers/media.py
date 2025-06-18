@@ -16,7 +16,7 @@ TELEGRAM_MAX_MESSAGE_LENGTH = 4096
 
 async def send_long_message(message: Message, text: str):
     if len(text) <= TELEGRAM_MAX_MESSAGE_LENGTH:
-        await message.answer(text)
+        await message.reply(text)
         return
 
     parts = []
@@ -35,7 +35,7 @@ async def send_long_message(message: Message, text: str):
             break
     
     for part in parts:
-        await message.answer(part)
+        await message.reply(part)
         await asyncio.sleep(0.5)
 
 async def get_file_url(bot, file_id: str) -> str:
